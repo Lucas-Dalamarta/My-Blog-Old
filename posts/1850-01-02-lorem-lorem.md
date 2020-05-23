@@ -2,8 +2,8 @@
 date: 1850-01-02 01:01:01
 title: 'Lorem Ipsum dummy!'
 description: 'Just a small Lorem Ipsum dummy!, nothing to see here!'
-category: Misc
-background: "#7aab13"
+category: CSS
+background: ""
 ---
 
 
