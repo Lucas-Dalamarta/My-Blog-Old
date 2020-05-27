@@ -6,6 +6,8 @@ image: /assets/img/mussum-ipsum.jpg
 category: jekyll
 background: '#B31917'
 ---
+![Mussum](/assets/img/mussum-ipsum.jpg)
+
 ## Mussum Ipsum o melhor ipsum do mundis
 
 Mussum Ipsum, cacilds vidis litro abertis. Não sou faixa preta cumpadi, sou preto inteiris, inteiris. Paisis, filhis, espiritis santis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis. Copo furadis é disculpa de bebadis, arcu quam euismod magna.
@@ -27,3 +29,6 @@ Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose. Admodu
 ## E para fecharis
 
 Todo mundo vê os porris que eu tomo, mas ninguém vê os tombis que eu levo! Copo furadis é disculpa de bebadis, arcu quam euismod magna. Posuere libero varius. Nullam a nisl ut ante blandit hendrerit. Aenean sit amet nisi. Nec orci ornare consequat. Praesent lacinia ultrices consectetur. Sed non ipsum felis.
+
+
+### Acabousis ? Me vesis um leitis de gancis manquis!
