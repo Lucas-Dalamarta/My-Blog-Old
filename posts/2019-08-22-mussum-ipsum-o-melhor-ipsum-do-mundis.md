@@ -32,3 +32,7 @@ Todo mundo vê os porris que eu tomo, mas ninguém vê os tombis que eu levo! Co
 
 
 ### Acabousis ? Me vesis um leitis de gancis manquis!
+
+```jsx
+export default Saudis
+```
