@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react"
 
+import getThemeColor from "../../utils/getThemeColor"
+
 import { Home } from "styled-icons/boxicons-solid"
 import { SearchAlt as Search } from "styled-icons/boxicons-regular"
 import { Lightbulb as Light } from "styled-icons/fa-solid"
@@ -28,12 +30,26 @@ const MenuBar = () => {
   return (
     <S.MenuBarWrapper>
       <S.MenuBarGroup>
-        <S.MenuBarLink to="/" title="Voltar para Home">
+        <S.MenuBarLink
+          cover
+          direction="left"
+          bg={getThemeColor()}
+          duration={0.5}
+          to="/"
+          title="Voltar para Home"
+        >
           <S.MenuBarItem>
             <Home />
           </S.MenuBarItem>
         </S.MenuBarLink>
-        <S.MenuBarLink to="/search/" title="Pesquisar">
+        <S.MenuBarLink
+          cover
+          direction="left"
+          bg={getThemeColor()}
+          duration={0.5}
+          to="/search/"
+          title="Pesquisar"
+        >
           <S.MenuBarItem>
             <Search />
           </S.MenuBarItem>
