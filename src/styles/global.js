@@ -74,8 +74,8 @@ const GlobalStyles = createGlobalStyle`
   }
   body.light {
     --borders: #dedede;
-    --postColor: #111;
     --texts: #555555;
+    --postColor: #111;
     --highlight: #1fa1f2;
     --mediumBackground: #f0f0f3;
     --background: #fff;
