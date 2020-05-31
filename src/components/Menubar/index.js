@@ -2,13 +2,13 @@ import React, { useState, useEffect } from "react"
 
 import getThemeColor from "../../utils/getThemeColor"
 
-import { Home } from "styled-icons/boxicons-solid"
-import { SearchAlt as Search } from "styled-icons/boxicons-regular"
-import { Lightbulb as Light } from "styled-icons/fa-solid"
-import { Lightbulb as Dark } from "styled-icons/fa-regular"
-import { Grid } from "styled-icons/boxicons-solid"
-import { UpArrowAlt as Arrow } from "styled-icons/boxicons-regular"
-import { ThList as List } from "styled-icons/typicons"
+import { Home } from "@styled-icons/boxicons-solid/Home"
+import { SearchAlt as Search } from "@styled-icons/boxicons-regular/SearchAlt"
+import { Lightbulb as Light } from "@styled-icons/fa-solid/Lightbulb"
+import { Lightbulb as Dark } from "@styled-icons/fa-regular/Lightbulb"
+import { Grid } from "@styled-icons/boxicons-solid/Grid"
+import { UpArrowAlt as Arrow } from "@styled-icons/boxicons-regular/UpArrowAlt"
+import { ThList as List } from "@styled-icons/typicons/ThList"
 
 import * as S from "./styled"
 
