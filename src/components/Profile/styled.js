@@ -24,7 +24,7 @@ export const ProfileLink = styled(AniLink)`
 `
 
 export const ProfileAuthor = styled.h1`
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   margin: 0.5rem auto 1.5rem;
 
   ${media.lessThan("large")`

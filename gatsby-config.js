@@ -8,6 +8,7 @@ module.exports = {
     position: `Backend Dev`,
     description: `A blog about backend development and other coding stuff`,
     author: `@Lucas-Dalamarta`,
+    name: "Lucas Felipe Dalamarta",
     siteUrl: "https://lucas-dalamarta.netlify.app/",
   },
   plugins: [
