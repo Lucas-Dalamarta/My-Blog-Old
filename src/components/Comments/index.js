@@ -5,9 +5,10 @@ import ReactDisqusComments from "react-disqus-comments"
 import * as S from "./styled"
 
 const Comments = ({ url, title }) => {
-  const tempURL = "willianjusten" //..When the og website is aired, change to the actual page
+  const tempURL = "lucas-dalamarta.netlify.app" //..When the og website is aired, change to the actual page
   const completeURL = `https://${tempURL}${url}`
 
+  console.log(completeURL)
   return (
     <S.CommentsWrapper>
       <S.CommentsTitle>Comentários</S.CommentsTitle>

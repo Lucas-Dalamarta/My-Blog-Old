@@ -8,7 +8,7 @@ module.exports = {
     position: `Backend Dev`,
     description: `A blog about backend development and other coding stuff`,
     author: `@Lucas-Dalamarta`,
-    siteUrl: "https://johndoe.com.br",
+    siteUrl: "https://lucas-dalamarta.netlify.app/",
   },
   plugins: [
     `gatsby-plugin-transition-link`,
@@ -51,8 +51,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `John Doe`,
-        short_name: `John Doe`,
+        name: `Lucas Dalamarta`,
+        short_name: `Lucas Dalamarta`,
         start_url: `/`,
         background_color: `#16202c`,
         theme_color: `#16202c`,
@@ -86,5 +86,6 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     `gatsby-plugin-offline`,
+    `gatsby-plugin-netlify-cms`,
   ],
 }
