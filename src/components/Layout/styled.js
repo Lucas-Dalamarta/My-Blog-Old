@@ -12,7 +12,7 @@ export const LayoutMain = styled.main`
   background: var(--background);
   min-height: 100vh;
   padding: 0 3.75rem 0 20rem;
-  transition: background, color 0.5s;
+  transition: all 0.5s ease 0s;
   width: 100%;
   body#grid & {
     grid-template-areas:

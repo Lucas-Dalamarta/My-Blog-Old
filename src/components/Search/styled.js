@@ -6,7 +6,7 @@ export const SearchWrapper = styled.section`
   display: flex;
   flex-direction: column;
   width: 100%;
-  transition: opacity 0.4s;
+  transition: all 0.5s ease 0s;
   .ais-InstantSearch__root {
     display: flex;
     flex-direction: column;
