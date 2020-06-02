@@ -7,7 +7,7 @@ export const PostItemLink = styled(AniLink)`
   color: var(--texts);
   display: flex;
   text-decoration: none;
-  transition: background 0.5s;
+  transition: background 0.8s;
   body#grid & {
     background-color: var(--background);
   }
@@ -22,6 +22,7 @@ export const PostItemWrapper = styled.section`
   display: flex;
   padding: 2rem 3rem;
   width: 100%;
+  transition: color 0.8s;
   body#grid & {
     border: none;
     padding: 2rem 1rem;
