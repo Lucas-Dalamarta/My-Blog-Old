@@ -2,6 +2,47 @@ import styled from "styled-components"
 import media from "styled-media-query"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 
+import { LightningBolt as Light } from "@styled-icons/heroicons-solid/LightningBolt"
+import { LightningBolt as Dark } from "@styled-icons/heroicons-outline/LightningBolt"
+
+export const MenuBarLightTheme = styled(Light)`
+  transition: all 0.5s ease 0s;
+  &.light {
+    color: var(--texts);
+    &:hover {
+      color: var(--highlight);
+    }
+  }
+  &.dark {
+    color: var(--texts);
+    &:hover {
+      color: var(--highlight);
+    }
+  }
+  &:hover {
+    color: var(--texts);
+  }
+`
+
+export const MenuBarDarkTheme = styled(Dark)`
+  transition: all 0.5s ease 0s;
+  &.light {
+    color: var(--texts);
+    &:hover {
+      color: var(--highlight);
+    }
+  }
+  &.dark {
+    color: var(--texts);
+    &:hover {
+      color: var(--highlight);
+    }
+  }
+  &:hover {
+    color: var(--texts);
+  }
+`
+
 export const MenuBarWrapper = styled.aside`
   align-items: center;
   background: var(--mediumBackground);
@@ -51,16 +92,19 @@ export const MenuBarItem = styled.span`
   padding: 1.1rem;
   position: relative;
   width: 3.75rem;
+
+  transform: color 0.5s ease 0s;
+
   &.light {
-    color: #d4d400;
+    color: var(--highlight);
     &:hover {
-      color: #1fa1f2;
+      color: var(--texts);
     }
   }
   &.dark {
-    color: #1fa1f2;
+    color: var(--highlight);
     &:hover {
-      color: #d4d400;
+      color: var(--texts);
     }
   }
   &:hover {

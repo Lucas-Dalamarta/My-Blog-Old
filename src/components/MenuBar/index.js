@@ -63,7 +63,7 @@ const MenuBar = () => {
           }}
           className={theme}
         >
-          {isDarkMode ? <Dark /> : <Light />}
+          {isDarkMode ? <S.MenuBarDarkTheme /> : <S.MenuBarLightTheme />}
         </S.MenuBarItem>
         <S.MenuBarItem
           title="Mudar visualização"
