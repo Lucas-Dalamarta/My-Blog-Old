@@ -28,7 +28,8 @@ collections:
           label: "Category",
           name: "category",
           widget: "select",
-          options: ["css", "js", "html", "dev", "misc"],
+          options:
+            ["css", "js", "html", "dev", "road", "games", "movies", "misc"],
         }
       - {
           label: "Background",
@@ -36,11 +37,14 @@ collections:
           widget: "select",
           options:
             [
-              { label: "CSS", value: "#2DA0C3" },
-              { label: "JS", value: "#D6BA32" },
-              { label: "HTML", value: "#EB7728" },
-              { label: "Dev", value: "#637a91" },
-              { label: "Misc", value: "#7AAB13" },
+              { label: "CSS", value: "#2A7B9B" },
+              { label: "JS", value: "#FFC300" },
+              { label: "HTML", value: "#FF5733" },
+              { label: "Dev", value: "#ADD45C" },
+              { label: "Road", value: "#EDDD53" },
+              { label: "Games", value: "#00BAAD" },
+              { label: "Movies", value: "#57C785" },
+              { label: "Misc", value: "#3D3D6B" },
             ],
         }
       - { label: "Body", name: "body", widget: "markdown" }
