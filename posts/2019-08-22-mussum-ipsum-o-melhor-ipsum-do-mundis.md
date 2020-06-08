@@ -1,38 +1,45 @@
 ---
-title: Mussum Ipsum o melhor ipsum do mundis
-description: 'Mussum Ipsum, cacilds vidis litro abertis. Não sou faixa preta cumpadi'
-date: '2019-08-22 08:51:23'
-image: /assets/img/mussum-ipsum.jpg
-category: jekyll
-background: '#B31917'
+title: Minha primeira visita à Google-SP
+description: O dia que eu tomei café com leite de côco e visitei a maior empresa
+  de tecnologia do mundo!
+date: 2020-06-07 09:19:25
+image: assets/img/whatsapp-image-2020-06-07-at-8.58.39-pm.jpeg
+category: road
+background: "#EDDD53"
 ---
-![Mussum](/assets/img/mussum-ipsum.jpg)
+## Visitando a Big G!
 
-## Mussum Ipsum o melhor ipsum do mundis
+Aproveitando que fez um ano que visitei a Google-SP, resolvi dedicar meu primeiro post a essa visita incrível!
 
-Mussum Ipsum, cacilds vidis litro abertis. Não sou faixa preta cumpadi, sou preto inteiris, inteiris. Paisis, filhis, espiritis santis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis. Copo furadis é disculpa de bebadis, arcu quam euismod magna.
+Logo no início do meu segundo semestre na faculdade, fui convidado por um colega de classe à visitar a sede da Google em SP, e como qualquer entusiasta em tecnologia fiz a única coisa que podia ser feita, ACEITEI!
 
-A ordem dos tratores não altera o pão duris. Viva Forevis aptent taciti sociosqu ad litora torquent. Delegadis gente finis, bibendum egestas augue arcu ut est. Atirei o pau no gatis, per gatis num morreus.
+![Pose na frente do G!](assets/img/whatsapp-image-2020-06-07-at-8.58.39-pm.jpeg "Eu e a galera mais fera da turma de ADS de 2018!")
 
-Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose. Admodum accumsan disputationi eu sit. Vide electram sadipscing et per. Si u mundo tá muito paradis? Toma um mé que o mundo vai girarzis! Quem num gosta di mé, boa gentis num é.
-
-### Nois bebis
-
-- Cevadis
-- Lupulis
-- Drinks
-
-### Uma frasis de impactis
-
->Mussum Ipsum, cacilds vidis litro abertis. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl. Aenean aliquam molestie leo, vitae iaculis nisl. Cevadis im ampola pa arma uma pindureta. Casamentiss faiz malandris se pirulitá.
-
-## E para fecharis
-
-Todo mundo vê os porris que eu tomo, mas ninguém vê os tombis que eu levo! Copo furadis é disculpa de bebadis, arcu quam euismod magna. Posuere libero varius. Nullam a nisl ut ante blandit hendrerit. Aenean sit amet nisi. Nec orci ornare consequat. Praesent lacinia ultrices consectetur. Sed non ipsum felis.
+Tivemos a oportunidade de fazer uma breve, porem muito inspiradora visita.
 
 
-### Acabousis ? Me vesis um leitis de gancis manquis!
+> "Hoje em dia tecnologias web tem avançado demais, então pode-se acreditar que em um futuro próximo muitas ferramentas sejam feitas diretamente para o browser."
 
-```jsx
-export default Saudis
+## E depois de um ano, o que mudou ?
+
+Por onde posso começar ? Foram tantos avanços que acho difícil descrever, porém irei tentar:
+
+* Compartilhei e incentivei colegas e amigos a estudarem
+* Aprendi sobre a importância de se escrever HTML semântico
+* Criei coragem e aprendi o básico do JavaScript
+* Fui em diversos eventos, tanto em Jundiaí quanto em São Paulo
+* Realizei uma quantidade incontável de cursos e Bootcamps
+
+## Mas meus objetivos não param por aí:
+
+* Irei me aprofundar mais ainda em JavaScript e TypeScript(Possivelmente reescrevendo o fonte desse blog 👌)
+* Vou aprender ainda mais sobre como escrever CSS corretamente
+* Quero me tornar mais ativo nas comunidades
+
+### Abaixo fica um trecho em JavaScript que exemplifica a ideia que criamos:
+
+```javascript
+while(!Googler) {
+  studyMore();
+}
 ```
