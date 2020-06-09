@@ -3,7 +3,7 @@ title: Minha primeira visita à Google-SP
 description: O dia que eu tomei café com leite de coco e visitei a maior empresa
   de tecnologia do mundo!
 date: 2020-06-07 09:19:25
-image: assets/img/whatsapp-image-2020-06-07-at-8.58.39-pm.jpeg
+image: assets/img/us-at-google.jpeg
 category: road
 background: "#EDDD53"
 ---
@@ -13,7 +13,7 @@ Aproveitando que fez um ano que visitei a Google-SP, resolvi dedicar meu primeir
 
 Logo no início do meu segundo semestre na faculdade, fui convidado por um colega de classe à visitar a sede da Google em SP, e como qualquer entusiasta em tecnologia fiz a única coisa que podia ser feita, ACEITEI!
 
-![Pose na frente do G!](assets/img/whatsapp-image-2020-06-07-at-8.58.39-pm.jpeg "Eu e a galera mais fera da turma de ADS de 2018!")
+![Pose na frente do G!](assets/img/us-at-google.jpeg "Eu e a galera mais fera da turma de ADS de 2018!")
 
 Tivemos a oportunidade de fazer uma breve, porem muito inspiradora visita.
 
