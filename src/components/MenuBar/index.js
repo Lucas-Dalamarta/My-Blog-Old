@@ -7,8 +7,6 @@ import { SearchAlt as Search } from "@styled-icons/boxicons-regular/SearchAlt"
 import { Grid } from "@styled-icons/boxicons-solid/Grid"
 import { UpArrowAlt as Arrow } from "@styled-icons/boxicons-regular/UpArrowAlt"
 import { ThList as List } from "@styled-icons/typicons/ThList"
-import { LightningBolt as Light } from "@styled-icons/heroicons-solid/LightningBolt"
-import { LightningBolt as Dark } from "@styled-icons/heroicons-outline/LightningBolt"
 
 import * as S from "./styled"
 
@@ -57,7 +55,7 @@ const MenuBar = () => {
       </S.MenuBarGroup>
       <S.MenuBarGroup>
         <S.MenuBarItem
-          title="Mudar o tema"
+          title={isDarkMode ? "Acender as luzes" : "Apagar as Luzes"}
           onClick={() => {
             window.__setPreferredTheme(isDarkMode ? "light" : "dark")
           }}
