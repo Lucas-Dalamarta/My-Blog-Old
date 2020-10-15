@@ -6,7 +6,7 @@ module.exports = {
   siteMetadata: {
     title: `Meu Blog`,
     position: `Back-End Dev | Front-end Student`,
-    description: `Um blog feito de um jovem Desenvolvedor Curitibano que agora mora em Jundiaí-SP`,
+    description: `Um blog feito por um jovem Desenvolvedor Curitibano que agora mora em Jundiaí-SP`,
     author: `@Lucas-Dalamarta`,
     name: "Lucas Felipe Dalamarta",
     siteUrl: "https://lucas-dalamarta.netlify.app/",
