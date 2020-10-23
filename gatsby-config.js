@@ -5,7 +5,7 @@ const queries = require("./src/utils/algolia_queries")
 module.exports = {
   siteMetadata: {
     title: `Meu Blog`,
-    position: `Back-End Dev | Front-end Student`,
+    position: `Back-End | Front-end Student`,
     description: `Um blog feito por um jovem Desenvolvedor Curitibano que agora mora em Jundiaí-SP`,
     author: `@Lucas-Dalamarta`,
     name: "Lucas Felipe Dalamarta",

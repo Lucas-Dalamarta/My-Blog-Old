@@ -1,7 +1,6 @@
 ---
 title: Minha primeira visita à Google-SP
-description: O dia que eu tomei café com leite de coco e visitei a maior empresa
-  de tecnologia do mundo!
+description: O dia que eu tomei café com leite de coco e visitei a maior empresa de tecnologia do mundo!
 date: 2020-06-07 09:19:25
 image: assets/img/us-at-google.jpeg
 category: road
