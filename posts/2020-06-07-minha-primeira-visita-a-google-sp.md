@@ -4,7 +4,6 @@ description: O dia que eu tomei café com leite de coco e visitei a maior empres
   de tecnologia do mundo!
 date: 2020-06-07T09:19:25.000Z
 image: assets/img/us-at-google.jpeg
-model: assets/img/rachel.gltf
 category: road
 background: "#EDDD53"
 ---
