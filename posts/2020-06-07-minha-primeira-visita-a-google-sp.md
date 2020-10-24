@@ -13,7 +13,7 @@ Aproveitando que fez um ano que visitei a Google-SP, resolvi dedicar meu primeir
 
 Logo no início do meu segundo semestre na faculdade, fui convidado por um colega de classe à visitar a sede da Google em SP, e como qualquer entusiasta em tecnologia fiz a única coisa que podia ser feita, ACEITEI!
 
-![Pose na frente do G!](assets/img/us-at-google.jpeg "Eu e a galera mais fera da turma de ADS de 2018!")
+![Pose na frente do G!](assets/img/us-at-google.jpeg "Eu e a galera mais fera da turma de UNIP-ADS de 2018!")
 
 Tivemos a oportunidade de fazer uma breve, porem muito inspiradora visita.
 
