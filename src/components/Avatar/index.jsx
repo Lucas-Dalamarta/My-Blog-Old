@@ -3,7 +3,7 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import * as S from "./styled"
 
-const Avatar = () => {
+export const Avatar = () => {
   const { avatarImage } = useStaticQuery(
     graphql`
       query {
@@ -20,5 +20,3 @@ const Avatar = () => {
 
   return <S.AvatarWrapper fixed={avatarImage.childImageSharp.fluid} />
 }
-
-export default Avatar

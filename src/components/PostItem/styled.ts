@@ -8,9 +8,11 @@ export const PostItemLink = styled(AniLink)`
   display: flex;
   text-decoration: none;
   transition: all 0.5s ease 0s;
-  body#grid & {
+  
+  body #grid & {
     background-color: var(--background);
   }
+  
   &:hover {
     color: var(--highlight);
   }
@@ -23,12 +25,14 @@ export const PostItemWrapper = styled.section`
   padding: 2rem 3rem;
   width: 100%;
   transition: all 0.5s ease 0s;
+  
   body#grid & {
     border: none;
     padding: 2rem 1rem;
     flex-direction: column;
     justify-content: center;
   }
+  
   ${media.lessThan("large")`
     align-items: flex-start;
     flex-direction: column;
@@ -36,7 +40,11 @@ export const PostItemWrapper = styled.section`
   `}
 `
 
-export const PostItemTag = styled.div`
+type PostItemProps = {
+  background: string
+}
+
+export const PostItemTag = styled.div<PostItemProps>`
   align-items: center;
   background: ${props =>
     props.background ? props.background : "var(--highlight)"};
@@ -49,6 +57,7 @@ export const PostItemTag = styled.div`
   min-height: 90px;
   min-width: 90px;
   text-transform: uppercase;
+  
   ${media.lessThan("large")`
     border-radius: 0;
     font-size: 1rem;
@@ -57,6 +66,7 @@ export const PostItemTag = styled.div`
     padding: .2rem .5rem;
     margin-bottom: .7rem;
   `}
+  
   body#grid & {
     margin-bottom: 1.5rem;
   }
@@ -66,6 +76,7 @@ export const PostItemInfo = styled.div`
   display: flex;
   flex-direction: column;
   margin-left: 1.5rem;
+  
   ${media.lessThan("large")`
     margin: 0;
   `}
@@ -79,7 +90,8 @@ export const PostItemTitle = styled.h1`
   font-size: 1.6rem;
   font-weight: 700;
   margin: 0.2rem 0 0.5rem;
-  body#grid & {
+  
+  body #grid & {
     line-height: 1.1;
     margin: 0.8rem 0;
   }

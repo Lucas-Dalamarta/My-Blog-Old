@@ -5,7 +5,7 @@ const queries = require("./src/utils/algolia_queries")
 module.exports = {
   siteMetadata: {
     title: `Meu Blog`,
-    position: `Back-End | Front-end Student`,
+    position: `Fullstack Engineer`,
     description: `Um blog feito por um jovem Desenvolvedor Curitibano que agora mora em Jundiaí-SP`,
     author: `@Lucas-Dalamarta`,
     name: "Lucas Felipe Dalamarta",
@@ -15,6 +15,14 @@ module.exports = {
     `gatsby-plugin-transition-link`,
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-plugin-typescript`,
+      options: {
+        isTSX: true, // defaults to false
+        jsxPragma: `jsx`, // defaults to "React"
+        allExtensions: true, // defaults to false
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
